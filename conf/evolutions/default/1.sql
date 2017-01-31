@@ -1,0 +1,13 @@
+# --- !Ups
+
+CREATE TABLE POSTS
+(
+  ID UUID,
+  TITLE TEXT,
+  CONTENT TEXT,
+  CRAETED TIMESTAMP
+);
+
+# --- !Downs
+
+DROP TABLE POSTS
